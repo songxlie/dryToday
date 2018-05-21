@@ -1,0 +1,29 @@
+/* pages/girly/girly.wxss */
+
+.girly{
+
+}
+.girly .content{
+  margin:  0 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.girly .module{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  margin: 20rpx 0;
+   
+}
+.girly .module .module-img{
+  width: 345rpx;
+  height: 340rpx;
+}
+.girly .module .author{
+  font-size: 28rpx;
+  color: #AEAEAE;
+  text-align: center;
+  margin-top: 15rpx;
+}

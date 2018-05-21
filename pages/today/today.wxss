@@ -1,0 +1,76 @@
+/* pages/today/today.wxss */
+.today{
+
+}
+
+/*每日推送  */
+.today .push{
+  height: 92rpx;
+  background-color: #d7e9f7;
+}
+
+.today .push .push-txt{
+  font-size:30rpx;
+  text-align: center;
+}
+
+/*大图片  */
+.today .today-img{
+  height: 400rpx;
+  width: 100%;
+}
+
+/*正文  */
+.today .content{
+  padding-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.today .content .main-i{
+  width: 100%;
+  margin: 50rpx 0 0 0;
+  border-bottom: 1rpx solid #ccc;
+  position: relative;
+
+}
+.today .content .main-i .main-title{
+  font-size: 36rpx;
+  width: 375rpx;
+  color: #1B1B1B;
+}
+/*作者  */
+.today .content .main-i .author{
+  font-size: 26rpx;
+  color: #B0B0B0;
+  margin-bottom: 45rpx;
+  margin-top: 10rpx;
+}
+
+/*图片  */
+.today .content .main-i .main-img{
+  width: 90rpx;
+  height: 160rpx;
+  position: absolute;
+  top: 50%;
+  right: 105rpx;
+  margin-top: -110rpx;
+}
+
+
+/*第二条 不带图片  */
+.today .content .main-g{
+  border-bottom: 1rpx solid #ccc;
+}
+.today .content .main-g .main-title{
+  margin-top: 36rpx;
+  font-size: 36rpx;
+  color: #1B1B1B;
+}
+
+.today .content .main-g .author{
+  font-size: 26rpx;
+  color: #B0B0B0;
+  margin-bottom: 30rpx;
+  margin-top: 10rpx;
+}

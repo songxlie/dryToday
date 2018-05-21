@@ -1,0 +1,7 @@
+.aui-col-xs-4 {
+    width: 50%;
+}
+.aui-col-xs-1, .aui-col-xs-2, .aui-col-xs-3, .aui-col-xs-4, .aui-col-xs-5, .aui-col-xs-6, .aui-col-xs-7, .aui-col-xs-8, .aui-col-xs-9, .aui-col-xs-10, .aui-col-xs-11, .aui-col-xs-5 {
+    position: relative;
+    float: left;
+}

@@ -1,0 +1,19 @@
+<!--历史的车轮  -->
+<view class="records">
+<!--文章  -->
+  <view class="article" wx:for="{{list}}" wx:key="{{*this}}">
+    <view class="article-title">{{item.desc}}</view>
+    <view class="article-imgs" wx:if="{{item.images && item.images.length > 0}}">
+      <image class="img1" wx:if="{{item.images[0]}}" src="{{item.images[0]}}"></image>
+      <image class="img2" wx:if="{{item.images[1]}}" src="{{item.images[1]}}"></image>
+      <image class="img3" wx:if="{{item.images[2]}}" src="{{item.images[2]}}"></image>
+    </view>
+    <view class="article-date">
+      <text class="date">{{item.createdAt}}</text>
+    </view>
+    <view class="article-share">
+      <image class="share" src="/static/images/records/article-share.png"></image>
+    </view>
+  </view>
+  
+</view>

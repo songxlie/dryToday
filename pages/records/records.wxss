@@ -1,0 +1,41 @@
+/* pages/records/records.wxss */
+
+.records{
+
+}
+
+/*文章  */
+.records .article{
+  margin: 25rpx 0 0 30rpx;
+  border-bottom: 1rpx solid #C8C7CC;
+  position: relative;
+}
+.records .article .article-title{
+  font-size: 36rpx;
+}
+
+.records .article .article-imgs{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rpx;
+
+}
+.records .article .article-imgs image{
+  width: 227rpx;
+  height: 150rpx;
+  margin-right: 10rpx;
+}
+.records .article .article-date{
+  font-size: 26rpx;
+  color: #B0B0B0;
+  margin: 30rpx 0;
+}
+.records .article .article-share{
+  position: absolute;
+  right: 45rpx;
+  bottom: 5%;
+}
+.records .article .article-share .share{
+  width: 30rpx;
+  height: 30rpx;
+}

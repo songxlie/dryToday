@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/today/today",
+    "pages/records/records",
+    "pages/my/my",
+    "pages/girly/girly"
+  ],
+  "tabBar":{
+    "color":"#868686",
+    "selectedColor":"#D6494D",
+    "list":[
+      {
+        "pagePath":"pages/today/today",
+        "iconPath":"/static/images/today/icon_today_n.png",
+        "selectedIconPath":"/static/images/today/icon_today_h.png",
+        "text":"Today"
+      },
+      {
+        "pagePath": "pages/records/records",
+        "iconPath": "/static/images/today/icon_records_n.png",
+        "selectedIconPath": "/static/images/today/icon_records_h.png",
+        "text": "历史"
+      },
+      {
+        "pagePath": "pages/girly/girly",
+        "iconPath": "/static/images/today/icon_girly_n.png",
+        "selectedIconPath": "/static/images/today/icon_girly_h.png",
+        "text": "萌妹子"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/static/images/today/icon_my_n.png",
+        "selectedIconPath": "/static/images/today/icon_my_h.png",
+        "text": "我的"
+      }
+
+    ]
+  },
+   
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

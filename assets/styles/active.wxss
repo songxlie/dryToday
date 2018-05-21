@@ -1,0 +1,86 @@
+.preSale-container{
+  margin-top: 90rpx;
+}
+
+.preSale-box{
+  background-color: white;
+  margin-bottom:10px;
+}
+
+.preSale-img-box{
+  width: 100%;
+  height: 200px;
+  background: white;
+  position: absolute;
+}
+
+.preSale-img{
+  width: 100%;
+  height: 200px;
+}
+
+.preSale-title{
+  width: 98%;
+  margin-left:3px;
+  font-size: 30rpx;
+  padding-top:205px;
+  color: #615b5a;
+  font-weight: 400;
+}
+
+.preSale-price{
+  display: inline-block;
+  margin-left:8px;
+  font-size: 18px;
+  padding-top: 10px;
+  color: rgb(233, 104, 107);
+  font-weight: 450;
+}
+
+.preSale-oldprice{
+  display: inline-block;
+  margin-left: 20rpx;
+  font-size: 12px;
+  padding-top: 5px;
+  color: #615b5a;
+  text-decoration: line-through;
+}
+
+.preSale-buy{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  width: 60px;
+  position: absolute;
+  bottom:6px;
+  right: 6px;
+  margin:0 !important;
+  padding:0 !important;
+  background: rgb(233, 104, 107);
+  color:#fff;
+  font-size: 11px;
+}
+.preSale-saoxun{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  width: 60px;
+  position: absolute;
+  bottom:6px;
+  right: 6px;
+  margin:0 !important;
+  padding:0 !important;
+  background: #adadad;
+  color:#fff;
+  font-size: 11px;
+}
+.hint{
+  color: crimson;
+  display: inline-block;
+}
+.empty{
+  height: 10px;
+}
+

@@ -1,0 +1,70 @@
+/* pages/my/my.wxss */
+
+page{
+  background-color: #EFEFF4;
+}
+
+.my{
+
+}
+
+.my .header{
+  height: 300rpx;
+  background-color: #3E3E3E;
+  display: flex;
+  flex-direction: row;
+}
+.my .header .portrait{
+  position: relative;
+}
+.my .header .portrait .portrait-out{
+  width: 132rpx;
+  height: 132rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 40rpx;
+  margin-top: -70rpx;
+}
+
+.my .header .login{
+  font-size: 38rpx;
+  color: #fff;
+  line-height: 300rpx;
+  margin-left: 192rpx;
+}
+
+/*打赏  */
+.my .content{
+
+}
+.my .content .reward{
+  margin: 40rpx 0;
+}
+
+.my .content .same{
+  height: 85rpx;
+  font-size: 32rpx;
+  border-top: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  background-color: #fff;
+  padding: 0 30rpx;
+  position: relative;
+}
+
+.my .content .wipe{
+  border-top: 0rpx;
+}
+
+.my .content .same .txt{
+  line-height: 85rpx;
+}
+
+.my .content .same .icon-go{
+  width: 18rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 50%;
+  right: 30rpx;
+  margin-top: -16rpx;
+}

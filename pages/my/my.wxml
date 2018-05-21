@@ -1,0 +1,55 @@
+
+<view class="my">
+<!--未登录状态  -->
+   <view class="login_n">
+    
+    <view class="header"> 
+
+      <!--头像  -->
+       <view class="portrait">
+        <image class="portrait-out" src="/static/images/my/portrait-out.jpg"></image>
+      </view>
+      <view class="login">点击登录</view>
+    
+    </view> 
+
+    <!--  -->
+
+     <view class="content"> 
+      <!--打赏  -->
+       <view class="same reward">
+        <text class="txt">打赏</text>
+        <image class="icon-go" src="/static/images/my/icon_go.png"></image>
+      </view>
+
+      <view class="same">
+        <text class="txt">干货爆料</text>
+        <image class="icon-go" src="/static/images/my/icon_go.png"></image>
+      </view>
+
+
+      <view class="same wipe">
+        <text class="txt">瞎吐槽</text>
+        <image class="icon-go" src="/static/images/my/icon_go.png"></image>
+      </view>
+    
+      <view class="same wipe">
+        <text class="txt">系统设置</text>
+        <image class="icon-go" src="/static/images/my/icon_go.png"></image>
+      </view>
+
+    </view>
+    
+
+  </view>  
+
+<!--已登录  -->
+
+  <view class="login">
+    
+  
+  
+  </view>
+
+
+</view>

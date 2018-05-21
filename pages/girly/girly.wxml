@@ -1,0 +1,15 @@
+
+<view class="girly">
+    <view class="content">
+    <!--模块  -->
+      <view class="module" wx:for="{{list}}" wx:key="{{*this}}">
+        <image class="module-img" mode="aspectFill" src="{{item.url}}" bindtap="previewImage" data-url="{{item.url}}"></image>
+        <text class="author">by : {{item.who}}</text>
+      </view>
+     
+    
+    
+    </view>
+
+
+</view>

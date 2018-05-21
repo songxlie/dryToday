@@ -1,0 +1,50 @@
+
+
+<view class="today">
+<!--每日推送  -->
+  <view class="push">
+    <view class="push-txt">今日力推：Android Dropdown 按钮效果 / Blockain 区块链-学习资源汇总</view>
+  </view>
+
+  <!--图片  -->
+  <image class="today-img" src="/static/images/today/today-img.jpg"></image>
+
+
+  <!--正文  -->
+  <view class="content">
+  <!--第一条 带图片  -->
+    <view class="main-i">
+      <view class="main-title">ios-App内置调试工具(debugging-tool)</view>
+    <!--作者  -->
+      <view class="author"><text classs="author-txt">ios  by  李满</text></view>
+      <image class="main-img" src="/static/images/today/main-img.png"></image>
+    </view>
+
+    <!--第二条 没带图片  -->
+    <view class="main-g">
+      <view class="main-title">MusicLibrary-一个丰富的音频播放SDK</view>
+      <!--作者  -->
+       <view class="author"><text classs="author-txt">Android  by  lizixian</text></view>
+    </view>
+
+
+    <!--第一条 带图片  -->
+    <view class="main-i">
+      <view class="main-title">ios-App内置调试工具(debugging-tool)</view>
+    <!--作者  -->
+      <view class="author"><text classs="author-txt">ios  by  李满</text></view>
+      <image class="main-img" src="/static/images/today/main-img.png"></image>
+    </view>
+
+    <!--第一条 带图片  -->
+    <view class="main-i">
+      <view class="main-title">ios-App内置调试工具(debugging-tool)</view>
+    <!--作者  -->
+      <view class="author"><text classs="author-txt">ios  by  李满</text></view>
+      <image class="main-img" src="/static/images/today/main-img.png"></image>
+    </view>
+
+  </view>
+
+
+</view>
