@@ -3,17 +3,18 @@
     "pages/today/today",
     "pages/records/records",
     "pages/my/my",
-    "pages/girly/girly"
+    "pages/girly/girly",
+    "pages/details/details"
   ],
-  "tabBar":{
-    "color":"#868686",
-    "selectedColor":"#D6494D",
-    "list":[
+  "tabBar": {
+    "color": "#868686",
+    "selectedColor": "#D6494D",
+    "list": [
       {
-        "pagePath":"pages/today/today",
-        "iconPath":"/static/images/today/icon_today_n.png",
-        "selectedIconPath":"/static/images/today/icon_today_h.png",
-        "text":"Today"
+        "pagePath": "pages/today/today",
+        "iconPath": "/static/images/today/icon_today_n.png",
+        "selectedIconPath": "/static/images/today/icon_today_h.png",
+        "text": "Today"
       },
       {
         "pagePath": "pages/records/records",
@@ -33,11 +34,8 @@
         "selectedIconPath": "/static/images/today/icon_my_h.png",
         "text": "我的"
       }
-
     ]
   },
-   
-
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

@@ -7,7 +7,7 @@
   </view>
 
   <!--图片  -->
-  <image class="today-img" src="/static/images/today/today-img.jpg"></image>
+  <image class="today-img" src="/static/images/today/today_img.jpg" mode="aspectFill"></image>
 
 
   <!--正文  -->
@@ -17,7 +17,7 @@
       <view class="main-title">ios-App内置调试工具(debugging-tool)</view>
     <!--作者  -->
       <view class="author"><text classs="author-txt">ios  by  李满</text></view>
-      <image class="main-img" src="/static/images/today/main-img.png"></image>
+      <image class="main-img" src="/static/images/today/main_img.jpg"  mode="aspectFill"></image>
     </view>
 
     <!--第二条 没带图片  -->
@@ -33,7 +33,7 @@
       <view class="main-title">ios-App内置调试工具(debugging-tool)</view>
     <!--作者  -->
       <view class="author"><text classs="author-txt">ios  by  李满</text></view>
-      <image class="main-img" src="/static/images/today/main-img.png"></image>
+      <image class="main-img" src="/static/images/today/main_img.jpg"  mode="aspectFill"></image>
     </view>
 
     <!--第一条 带图片  -->
@@ -41,7 +41,7 @@
       <view class="main-title">ios-App内置调试工具(debugging-tool)</view>
     <!--作者  -->
       <view class="author"><text classs="author-txt">ios  by  李满</text></view>
-      <image class="main-img" src="/static/images/today/main-img.png"></image>
+      <image class="main-img" src="/static/images/today/main_img.jpg" mode="aspectFill"></image>
     </view>
 
   </view>

@@ -1,7 +1,7 @@
 <!--历史的车轮  -->
 <view class="records">
 <!--文章  -->
-  <view class="article" wx:for="{{list}}" wx:key="{{*this}}">
+  <view class="article" wx:for="{{list}}" wx:key="{{*this}}" bindtap="switchDetails">
     <view class="article-title">{{item.desc}}</view>
     <view class="article-imgs" wx:if="{{item.images && item.images.length > 0}}">
       <image class="img1" wx:if="{{item.images[0]}}" src="{{item.images[0]}}"></image>
